@@ -1,0 +1,39 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import logo from './logo.svg';
+import './App.css';
+//import { withRouter } from 'react-router-dom'
+import Root from "./routes/root";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+function App() {
+return (
+    <div className="App">
+       <header className="App-header">
+         <img src={logo} className="App-logo" alt="logo" />
+         <p>
+           Edit <code>src/App.js</code> and save to reload.
+         </p>
+         <a
+          className="App-link"
+//         href="https://reactjs.org"
+          href="http://localhost:3000"
+//         target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React 
+          <p>     hello       </p>
+         </a>
+ 	<p> hello no underline </p>
+ 	<p> hello no underline </p>
+       </header>
+     </div>
+  );
+}
+
+export default App;
+
+
