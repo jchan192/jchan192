@@ -13,46 +13,53 @@ import {
 
 function App() {
 
-return (
-    <div className="App">
-      <div style={{color: "#82D7F7", 
-		   display: "flex", 
-		   alignItems: "center",
-		   justifyContent:"space-between",
-		   borderBottom: "4px solid #82D7F7",
-		   padding: "0 16px",
-		   position: "sticky"}} id="sidebar">
-
-        <h1 style={{color: "#82D7F7"}}>  Hello, I'm Jowett Chan
-	</h1>
-	    <div>
-	      <Link to={`/home`} style={textstyle} >   About me</Link>            
-	      <Link to={`/contacts`} style={textstyle}> Publications/Talks</Link>
-	      <Link to={`/about`} style={textstyle2}> Data</Link>
-	  </div>
-      </div>
-
-       <header className="App-header">
-         <img src={logo} className="App-logo" alt="logo" />
-         <p>
-           Edit <code>src/App.js</code> and save to reload.
-         </p>
-         <a
-          className="App-link"
-//         href="https://reactjs.org"
-          href="http://localhost:3000"
-//         target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React 
-          <p>     hello       </p>
-         </a>
- 	<p> hello no underline </p>
- 	<p> hello no underline </p>
-       </header>
-     </div>
-  );
+    return (
+	<div>
+	    <h2>Github Pages</h2>
+	    <h3>Deploying React to Github</h3>
+	</div>
+    );
 }
+// return (
+//     <div className="App">
+//       <div style={{color: "#82D7F7", 
+// 		   display: "flex", 
+// 		   alignItems: "center",
+// 		   justifyContent:"space-between",
+// 		   borderBottom: "4px solid #82D7F7",
+// 		   padding: "0 16px",
+// 		   position: "sticky"}} id="sidebar">
+
+//         <h1 style={{color: "#82D7F7"}}>  Hello, I'm Jowett Chan
+// 	</h1>
+// 	    <div>
+// 	      <Link to={`/home`} style={textstyle} >   About me</Link>            
+// 	      <Link to={`/contacts`} style={textstyle}> Publications/Talks</Link>
+// 	      <Link to={`/about`} style={textstyle2}> Data</Link>
+// 	  </div>
+//       </div>
+
+//        <header className="App-header">
+//          <img src={logo} className="App-logo" alt="logo" />
+//          <p>
+//            Edit <code>src/App.js</code> and save to reload.
+//          </p>
+//          <a
+//           className="App-link"
+// //         href="https://reactjs.org"
+//           href="http://localhost:3000"
+// //         target="_blank"
+//           rel="noopener noreferrer"
+//         >
+//           Learn React 
+//           <p>     hello       </p>
+//          </a>
+//  	<p> hello no underline </p>
+//  	<p> hello no underline </p>
+//        </header>
+//      </div>
+//   );
+// }
 
 export default App;
 
