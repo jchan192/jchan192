@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
   
 } from "react-router-dom";
 import Root from "./routes/root";
 import Contact from "./routes/contact";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
 //    element: <div>Hello world!</div>,
