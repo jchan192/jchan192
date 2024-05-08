@@ -34,9 +34,9 @@ useEffect(()=> {
         <h1 style={{color: "#82D7F7"}}>  Hello, I'm Jowett Chan
 	</h1>
 	    <div>
-	      <Link to={`/home`} style={textstyle} >   About me</Link>            
+	      <Link to={`/home`} style={textstyle} >    About me</Link>            
 	      <Link to={`/contacts`} style={textstyle}> Publications/Talks</Link>
-	      <Link to={`/about`} style={textstyle2}> Data</Link>
+	      <Link to={`/about`} style={textstyle2}>   Simulations</Link>
 	  </div>
 
       </div>
