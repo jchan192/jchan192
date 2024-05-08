@@ -48,7 +48,7 @@ useEffect(()=> {
 		  padding: "30px 400px",
 	}}> 
 <p>
-	      This is the homepage of <span style={{color: '#82D7F7'}}>Jowett</span> Chan Hei Yin. I am currently a postdoc fellow of the theoretical and astrophysical group at the National Center for Theoretical Sciences (NCTS), which locates at the National Taiwan University. 
+	      This is the homepage of <span style={{color: '#82D7F7'}}>Jowett</span> Chan Hei Yin. I am currently a postdoc fellow of the theoretical and astrophysical group at the National Center for Theoretical Sciences (NCTS), which locates at the National Taiwan University.
 	      <br/> 
 	      <br/>
 	      My research interest focuses on simulation of Dark Matter, more specifically Fuzzy Dark Matter, while verifying it through comparing simulated haloes with observed dwarf galaxies in the local Universe. Below is an example of a Fuzzy Dark Matter halo.
@@ -84,7 +84,7 @@ useEffect(()=> {
 		   fontFamily: "Times New Roman",
 		   marginTop: "-20px"
 	}}>
-	 Room 427, Cosmology Building, National Taiwan University,  No. 1, Sec. 4, Roosevelt Rd., Taipei City 106, Taiwan 
+	 Room 427, Cosmology Building, National Taiwan University,  No. 1, Sec. 4, Roosevelt Rd., Taipei City 106, Taiwan  can i ad somehting ehrere
 	 </div>
       <div id="detail">
 	  <Outlet />
