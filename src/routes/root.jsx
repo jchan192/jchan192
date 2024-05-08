@@ -35,30 +35,16 @@ useEffect(()=> {
 	</h1>
 	    <div>
 	      <Link to={`/home`} style={textstyle} >    About me</Link>            
-	      <Link to={`/contacts`} style={textstyle}> Publications/Talks</Link>
-	      <Link to={`/about`} style={textstyle2}>   Simulations</Link>
+	      <Link to={`/contacts`} style={textstyle}> Simulations</Link>
 	  </div>
 
       </div>
 
-      <div style={{color: "white", 
-		   display: "flex", 
-		   alignItems: "center",
-		   justifyContent:"center",
-		  padding: "30px 400px",
-	}}> 
-<p>
-	      This is the homepage of <span style={{color: '#82D7F7'}}>Jowett</span> Chan Hei Yin. I am currently a postdoc fellow of the theoretical and astrophysical group at the National Center for Theoretical Sciences (NCTS), which locates at the National Taiwan University.
-	      <br/> 
-	      <br/>
-	      My research interest focuses on simulation of Dark Matter, more specifically Fuzzy Dark Matter, while verifying it through comparing simulated haloes with observed dwarf galaxies in the local Universe. Below is an example of a Fuzzy Dark Matter halo.
-</p>
-	  </div>
-
-	<div style={{display: "flex", 
-		   alignItems: "center",
-		   justifyContent:"center",
-		  padding: "5px 400px",}}>
+      <div style={{display: "flex", 
+//		   alignItems: "center",
+//		   justifyContent:"center",
+		   maxWidth: "400px", // Limit maximum width to prevent text from stretching too wide
+		   padding: "40px",}}>
         <img style={{width: "300px",height: "300px"}}
           key={contact.avatar}
           src={contact.avatar || null}
@@ -67,25 +53,50 @@ useEffect(()=> {
 
 
       <div style={{color: "white", 
-		   display: "flex", 
-		   alignItems: "center",
-		   justifyContent:"center",
-		  padding: "25px 200px",
-		   fontFamily: "Times New Roman",
+//		   justifyContent:'center', 
+//		   alignItems:'center', 
+//		   height: '100vh'
+//		   display: "flex", 
+//		   textAlign: "center",
+//		   flexDirection: "column", // Ensure text wraps vertically on smaller screens
+//		   alignItems: "center",
+		   padding: "0px 30px",		 
+//		   width: 1000
+		   maxWidth: "900px", // Limit maximum width to prevent text from stretching too wide
 	}}>
-	  jchan@ncts.phys.ntu.edu.tw
-	 </div>
+<p>
+	      This is <span style={{color: '#82D7F7'}}>Jowett</span> Chan. I am currently a postdoc fellow of the theoretical and astrophysical group at the National Center for Theoretical Sciences (NCTS), which locates at the National Taiwan University.
+	      My research interest focuses on simulation of Dark Matter, more specifically Fuzzy Dark Matter, while verifying it through comparing simulated haloes with observed dwarf galaxies in the local Universe. Above is an example of a Fuzzy Dark Matter halo.
+</p>
+	  </div>
 
       <div style={{color: "white", 
-		   display: "flex", 
-		   alignItems: "center",
-		   justifyContent:"center",
-		  padding: "0px 200px",
+		   padding: "30px",		 
 		   fontFamily: "Times New Roman",
-		   marginTop: "-20px"
 	}}>
-	 Room 427, Cosmology Building, National Taiwan University,  No. 1, Sec. 4, Roosevelt Rd., Taipei City 106, Taiwan  can i ad somehting ehrere
+	  <span style={{fontWeight: "bold", fontSize: 25}}>
+	      Publications: <br/>
+	  </span>
+	  Hei Yin Jowett Chan, Elisa G. M. Ferreira, Simon May, Kohei Hayashi & Masashi Chiba. 2022, MNRAS, 511, 943. <br/>
+	  Hayashi Kohei, Elisa G. M. Ferreira, Hei Yin Jowett Chan, 2021, ApJL, 912, L3. <br/>
+	  Hei Yin Jowett Chan, Masashi Chiba & Tamoaki Ishiyama. 2019, MNRAS, 490, 2405
 	 </div>
+
+
+      <div style={{color: "white", 
+		   padding: "30px",		 
+		   fontFamily: "Times New Roman",
+	}}>
+	  <span style={{fontWeight: "bold", fontSize: 25}}>
+	      Contacts: <br/>
+	  </span>
+
+	 jchan@ncts.phys.ntu.edu.tw
+	  <br/>
+	 Room 427, Cosmology Building, National Taiwan University,  No. 1, Sec. 4, Roosevelt Rd., Taipei City 106, Taiwan
+
+	 </div>
+
       <div id="detail">
 	  <Outlet />
       </div>
@@ -95,10 +106,13 @@ useEffect(()=> {
 
 const textstyle={
     textDecoration: 'none',
+    fontWeight: "bold",
     color: "#82D7F7",
     fontFamily: "Helvetica",
-    fontSize: "16px",
-    marginLeft: "24px"
+    fontSize: "24px",
+    marginLeft: "24px",
+    marginRight: "24px",
+    textAlign: "center"
 }
 
 const textstyle2={
