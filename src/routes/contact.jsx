@@ -31,7 +31,7 @@ export default function Contact() {
 	    <div>
 	      <Link to={`/home`} style={textstyle} >   About me</Link>            
 	      <Link to={`/contacts`} style={textstyle}> Publications/Talks</Link>
-	      <Link to={`/about`} style={textstyle2}> Data</Link>
+	      <Link to={`/about`} style={textstyle2}> Simulations</Link>
 	  </div>
       </div>
 
