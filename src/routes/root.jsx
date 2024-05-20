@@ -73,7 +73,7 @@ useEffect(()=> {
 		   maxWidth: "900px", // Limit maximum width to prevent text from stretching too wide
 	}}>
 	  <p>
-	      This is <span style={{color: '#82D7F7'}}>Jowett</span> Chan. I am currently a postdoc fellow of <a href="https://nctstca.github.io" target="_blank" rel="noopener noreferrer" style={{color: "#82D7F7",textDecoration: 'none'}}>the theoretical and astrophysical group at the National Center for Theoretical Sciences (NCTS)</a>, which locates at the National Taiwan University.
+	      This is <span style={{color: '#82D7F7'}}>Jowett</span> Chan. I am currently a postdoc fellow of <a href="https://nctstca.github.io" target="_blank" rel="noopener noreferrer" style={{color: "#82D7F7",textDecoration: 'none'}}>the theoretical and astrophysical group at the National Center for Theoretical Sciences (NCTS)</a>, located at the National Taiwan University.
 	      My research interest focuses on simulation of physics, more specifically Cold/Fuzzy Dark Matter simulations, by numerically solving differential equations. We are currently performing simulation of a Milky-way sized Fuzzy Dark Matter halo using a recently improved numerical scheme implemetned in a GPU accelerated <a href="https://github.com/gamer-project/gamer" target="_blank" rel="noopener noreferrer" style={{color: "#82D7F7",textDecoration: 'none'}}> GAMER-2 </a>.
 	  </p>
 
