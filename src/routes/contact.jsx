@@ -72,12 +72,21 @@ export default function Contact() {
 
       <div style={{color: "white", 
 		   padding: "10px 30px",		 
-		   maxWidth: "900px", // Limit maximum width to prevent text from stretching too wide
+		   display: "flex",
+//		   maxWidth: "900px", // Limit maximum width to prevent text from stretching too wide
 	}}>
+
+	  <div style={{flex: "1",
+		       maxWidth: "700px",
+		       paddingRight: "60px",
+		      }}>
 	  <span style={{fontWeight: "bold", fontSize: 25}}>
 	      Fuzzy Dark Matter Simulation <br/>
 	  </span>
 	  Here is another simulation of a diffferent kind of dark matter model, namely the Wave Dark Matter model. Such a simulation is performed by numerically solving the Schordinger-Poisson equation, and we can see a resulting gravitationaly bound halo, similar to the N-body simualtion. In fact, the wave-like dynamics are the distinct feature that differentiates this model from the characteristics observed in Cold Dark Matter simulation. 
+
+	  </div>
+
 	  <div>
 	  <img
 	      style={{
