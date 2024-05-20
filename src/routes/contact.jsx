@@ -82,7 +82,7 @@ export default function Contact() {
 	  <img
 	      style={{
 //		  marginLeft: "auto",
-		  width: "450px",
+		  width: "600px",
 		  height: "400px",
 		  padding: "10px 10px",
 	      }}
