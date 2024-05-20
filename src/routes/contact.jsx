@@ -10,6 +10,10 @@ export default function Contact() {
 	favorite: true,
     };
 
+    const contact_2 = {
+	avatar: "https://www.astr.tohoku.ac.jp/~jchan/slice_core.mp4",
+	favorite: true,
+    };
     
   return (	  
     <div  id="contact">
@@ -73,6 +77,21 @@ export default function Contact() {
 	  <span style={{fontWeight: "bold", fontSize: 25}}>
 	      Fuzzy Dark Matter Simulation <br/>
 	  </span>
+
+	  <div>
+	  <img
+	      style={{
+//		  marginLeft: "auto",
+		  width: "400px",
+		  height: "400px",
+		  padding: "10px 10px",
+	      }}
+	      key={contact_2.avatar}
+	      src={contact_2.avatar || null}
+	  />
+
+	  </div>
+
       </div>
 
       <div style={{color: "white", 

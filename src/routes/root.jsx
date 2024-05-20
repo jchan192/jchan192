@@ -66,7 +66,7 @@ useEffect(()=> {
 	}}>
 <p>
 	      This is <span style={{color: '#82D7F7'}}>Jowett</span> Chan. I am currently a postdoc fellow of the theoretical and astrophysical group at the National Center for Theoretical Sciences (NCTS), which locates at the National Taiwan University.
-	      My research interest focuses on simulation of Dark Matter, more specifically Fuzzy Dark Matter, while verifying it through comparing simulated haloes with observed dwarf galaxies in the local Universe. Above is an example of a Fuzzy Dark Matter halo.
+	      My research interest focuses on simulation of physics, more specifically Cold/Fuzzy Dark Matter simulations, by numerically solving differential equations. 
 </p>
 	  </div>
 
