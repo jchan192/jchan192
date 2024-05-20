@@ -46,7 +46,7 @@ export default function Contact() {
 	      <span style={{fontWeight: "bold", 
 			    fontSize: 25, 
 			   }}>
-		  N-body Simulation <br/>
+		  N-body Simulation <br/> <br/>
 	      </span>
 	      Simulations of the Cold Dark Matter model are done by performing N-body simulations, like the gif on the right. We initialize the box with a lot of test particles, where each has certain particle mass, positions and velocities. The movement of the particles are only influenced by the their self gravity, so we assume no collision between particles. As you can see, such gravitational N-body simulation always leads to formation of a gravitatonally bound object. And we call them <span style={{fontWeight: "bold",color: '#82D7F7'}}>Halo</span>! 
 <br/><br/>
@@ -81,7 +81,7 @@ export default function Contact() {
 		       paddingRight: "60px",
 		      }}>
 	  <span style={{fontWeight: "bold", fontSize: 25}}>
-	      Fuzzy Dark Matter Simulation <br/>
+	      Fuzzy Dark Matter Simulation <br/> <br/>
 	  </span>
 	  Here is another simulation of a diffferent kind of dark matter model, namely the Wave Dark Matter model. Such a simulation is performed by numerically solving the Schordinger-Poisson equation, and we can see a resulting gravitationaly bound halo, similar to the N-body simualtion. In fact, the wave-like dynamics are the distinct feature that differentiates this model from the characteristics observed in Cold Dark Matter simulation. 
 
