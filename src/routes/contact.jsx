@@ -11,7 +11,7 @@ export default function Contact() {
     };
 
     const contact_2 = {
-	avatar: "https://www.astr.tohoku.ac.jp/~jchan/slice_core.mp4",
+	avatar: "https://www.astr.tohoku.ac.jp/~jchan/slice_core.gif",
 	favorite: true,
     };
     
