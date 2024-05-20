@@ -82,9 +82,10 @@ export default function Contact() {
 	  <img
 	      style={{
 //		  marginLeft: "auto",
-		  width: "600px",
+		  width: "400px",
 		  height: "400px",
 		  padding: "10px 10px",
+		  transform: "scaleX(1.5) scaleY(0.8)" // Adjust these values as needed
 	      }}
 	      key={contact_2.avatar}
 	      src={contact_2.avatar || null}
