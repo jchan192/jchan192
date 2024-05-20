@@ -93,7 +93,7 @@ export default function Contact() {
 		  width: "400px",
 		  height: "400px",
 		  padding: "10px 10px",
-		  transform: "scaleX(0.9) scaleY(0.9)" // Adjust these values as needed
+		  transform: "scaleX(1.0) scaleY(1.0)" // Adjust these values as needed
 	      }}
 	      key={contact_2.avatar}
 	      src={contact_2.avatar || null}
