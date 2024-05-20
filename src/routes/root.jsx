@@ -5,7 +5,7 @@ export default function Root() {
 
     const [color, changeColor] = useState("#282c34");
     const contact = {
-	avatar: "https://www.astr.tohoku.ac.jp/~jchan/fdmhalo533.png",
+	avatar: "https://www.astr.tohoku.ac.jp/~jchan/myface.png",
 	favorite: true,
     };
     document.body.style.backgroundColor= color; 
@@ -41,8 +41,7 @@ useEffect(()=> {
       </div>
 
       <div style={{display: "flex", 
-//		   alignItems: "center",
-//		   justifyContent:"center",
+		  transform: "scaleX(1.2) scaleY(1.0)", // Adjust these values as needed
 		   maxWidth: "400px", // Limit maximum width to prevent text from stretching too wide
 		   padding: "40px",}}>
         <img style={{width: "300px",height: "300px"}}
