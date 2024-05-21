@@ -78,7 +78,7 @@ useEffect(()=> {
 	  </p>
 
 	  <p>
-              During my graduate coruse at the  <a href="https://www.astr.tohoku.ac.jp/en/" target="_blank" rel="noopener noreferrer" style={{color: "#82D7F7",textDecoration: 'none'}}>Astronomical Institute of Tohoku University</a>, my research theme focused on the structure formation of Dark Matter under the supervision of Prof. Masashi Chiba. During that time, I independently developed a MPI parallel cosmological Fuzzy Dark Matter simulation code based on the Fourier spectral method in C++, leading to a publication. 
+              During my graduate coruse at the  <a href="https://www.astr.tohoku.ac.jp/en/" target="_blank" rel="noopener noreferrer" style={{color: "#82D7F7",textDecoration: 'none'}}>Astronomical Institute of Tohoku University</a>, my research theme focused on the structure formation of Dark Matter under the supervision of Prof. Masashi Chiba. At that time, I independently developed a MPI parallel cosmological Fuzzy Dark Matter simulation code based on the Fourier spectral method in C++, leading to a publication. 
 	  </p>
       </div>
 
