@@ -84,7 +84,7 @@ export default function Contact() {
 	  </span>
 	  Here is another simulation of a different kind of dark matter model, namely the Wave Dark Matter model. The simulation is performed by numerically solving the Schordinger-Poisson equation, and we can see a resulting gravitationaly bound halo, similar to the N-body simualtion. In fact, the wave-like dynamics are the distinct feature that differentiates this model from the characteristics observed in Cold Dark Matter simulation. Here the simulation is performed by using the GPU accelerated code <a href="https://github.com/gamer-project/gamer" target="_blank" rel="noopener noreferrer" style={{color: "#82D7F7",textDecoration: 'none'}}> GAMER-2 </a>.  <br/> <br/>
 
-	  Apart from publicly available simulation code, we have also developed our own MPI parallelized Fourier spectral code in C++ to perform simulations. We studied core feature of Wave Dark Matter halo and compared with previous findings, where results can be found <a href="https://academic.oup.com/mnras/article/511/1/943/6505142" target="_blank" rel="noopener noreferrer" style={{color: "#82D7F7",textDecoration: 'none'}}>  here </a>. 
+	  Apart from publicly available simulation code, we have also developed our own MPI parallelized Fourier spectral code in C++ to perform simulations. We found a diverse population of Wave Dark Matter halos and compared with previous findings, with results available <a href="https://academic.oup.com/mnras/article/511/1/943/6505142" target="_blank" rel="noopener noreferrer" style={{color: "#82D7F7",textDecoration: 'none'}}> here </a>. 
 	      
 	  </div>
 
